@@ -1,0 +1,64 @@
+  bash arg: -p
+  bash arg: com.aerozhonghuan.serialporttool
+  bash arg: --throttle
+  bash arg: 100
+  bash arg: -v
+  bash arg: 100
+:Monkey: seed=1535531382522 count=100
+:AllowPackage: com.aerozhonghuan.serialporttool
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.aerozhonghuan.serialporttool/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.aerozhonghuan.serialporttool/.MainActivity } in package com.aerozhonghuan.serialporttool
+:Sending Touch (ACTION_DOWN): 0:(1073.0,685.0)
+:Sending Touch (ACTION_UP): 0:(1073.9409,684.49207)
+:Sending Touch (ACTION_DOWN): 0:(112.0,1807.0)
+:Sending Touch (ACTION_UP): 0:(109.55874,1805.5986)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+    // activityResuming(com.bbk.launcher2)
+    // Rejecting resume of package com.bbk.launcher2
+:Sending Touch (ACTION_DOWN): 0:(27.0,74.0)
+:Sending Touch (ACTION_UP): 0:(18.209244,47.5392)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.aerozhonghuan.serialporttool/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.aerozhonghuan.serialporttool/.MainActivity } in package com.aerozhonghuan.serialporttool
+    // activityResuming(com.aerozhonghuan.serialporttool)
+:Sending Touch (ACTION_DOWN): 0:(105.0,409.0)
+:Sending Touch (ACTION_UP): 0:(97.64538,410.47897)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(855.0,212.0)
+:Sending Touch (ACTION_UP): 0:(871.2825,207.83661)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.aerozhonghuan.serialporttool/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.aerozhonghuan.serialporttool/.MainActivity } in package com.aerozhonghuan.serialporttool
+:Sending Touch (ACTION_DOWN): 0:(336.0,831.0)
+:Sending Touch (ACTION_UP): 0:(331.25473,829.1388)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Touch (ACTION_DOWN): 0:(273.0,1829.0)
+:Sending Touch (ACTION_UP): 0:(275.68588,1815.2444)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(815.0,934.0)
+:Sending Touch (ACTION_UP): 0:(819.65,927.363)
+:Sending Touch (ACTION_DOWN): 0:(189.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(197.70667,1401.8694)
+:Sending Touch (ACTION_DOWN): 0:(832.0,1382.0)
+:Sending Touch (ACTION_UP): 0:(830.66327,1376.6807)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=3151ms (0ms mobile, 0ms wifi, 3151ms not connected)
+// Monkey finished

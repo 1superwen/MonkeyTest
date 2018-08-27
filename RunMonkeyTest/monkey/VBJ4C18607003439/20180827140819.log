@@ -1,0 +1,165 @@
+  bash arg: -p
+  bash arg: com.aerozhonghuan.serialporttool
+  bash arg: --pct-touch
+  bash arg: 30
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --throttle
+  bash arg: 250
+  bash arg: -s
+  bash arg: 2
+  bash arg: -v
+  bash arg: -v
+  bash arg: 100
+:Monkey: seed=2 count=100
+:AllowPackage: com.aerozhonghuan.serialporttool
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.aerozhonghuan.serialporttool.MainActivity (from package com.aerozhonghuan.serialporttool)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 2
+// Event percentages:
+//   0: 30.0%
+//   1: 8.235294%
+//   2: 1.6470588%
+//   3: 12.3529415%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 20.588236%
+//   7: 12.3529415%
+//   8: 1.6470588%
+//   9: 1.6470588%
+//   10: 0.8235294%
+//   11: 10.705882%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.aerozhonghuan.serialporttool/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.aerozhonghuan.serialporttool/.MainActivity } in package com.aerozhonghuan.serialporttool
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(200.0,1147.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(199.84337,1147.5903)
+    // Injection Failed
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(296.0,1147.0)
+:Sending Touch (ACTION_UP): 0:(289.00452,1147.6859)
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1079.0,1402.0)
+:Sending Touch (ACTION_UP): 0:(1079.9979,1400.3145)
+Sleeping for 250 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(646.0,1618.0)
+:Sending Touch (ACTION_UP): 0:(628.65186,1619.3483)
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(914.0,982.0)
+:Sending Touch (ACTION_UP): 0:(915.8414,961.79474)
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(166.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(178.99393,1179.7723)
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(508.0,1203.0)
+:Sending Touch (ACTION_UP): 0:(507.09598,1211.0758)
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(952.0,226.0)
+:Sending Touch (ACTION_UP): 0:(949.2658,225.07135)
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(186.0,1135.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(196.4827,1128.5411) 1:(243.0,727.0)
+:Sending Touch (ACTION_MOVE): 0:(202.53989,1123.482) 1:(239.68336,730.5454)
+:Sending Touch (ACTION_MOVE): 0:(212.99382,1121.6111) 1:(233.86154,734.20764)
+:Sending Touch (ACTION_MOVE): 0:(219.76257,1114.866) 1:(227.67271,736.2519)
+:Sending Touch (ACTION_MOVE): 0:(223.14711,1112.9355) 1:(225.60686,749.5697)
+:Sending Touch (ACTION_MOVE): 0:(236.23778,1106.6147) 1:(224.07608,750.17126)
+:Sending Touch (ACTION_MOVE): 0:(240.55173,1099.95) 1:(219.27414,762.72076)
+:Sending Touch (ACTION_MOVE): 0:(253.1702,1094.1034) 1:(212.0069,781.7376)
+:Sending Touch (ACTION_MOVE): 0:(256.696,1093.6129) 1:(205.79193,791.4126)
+:Sending Touch (ACTION_MOVE): 0:(268.44547,1088.8892) 1:(198.68262,808.22174)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(278.09125,1084.9453) 1:(193.7088,822.1133)
+:Sending Touch (ACTION_UP): 0:(283.96805,1076.1755)
+Sleeping for 250 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 494    // 494
+:Sending Key (ACTION_UP): 494    // 494
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 103    // KEYCODE_BUTTON_R1
+:Sending Key (ACTION_UP): 103    // KEYCODE_BUTTON_R1
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(24.0,1900.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(27.423546,1911.3484) 1:(594.0,1356.0)
+:Sending Touch (ACTION_MOVE): 0:(32.66864,1930.692) 1:(591.8952,1367.0176)
+:Sending Touch (ACTION_MOVE): 0:(34.537296,1950.7786) 1:(577.2055,1385.5176)
+:Sending Touch (ACTION_MOVE): 0:(36.84053,1957.6484) 1:(566.021,1393.3462)
+:Sending Touch (ACTION_MOVE): 0:(42.443035,1966.896) 1:(565.24164,1408.8174)
+:Sending Touch (ACTION_MOVE): 0:(47.42829,1986.3956) 1:(546.6298,1427.7362)
+:Sending Touch (ACTION_MOVE): 0:(49.40832,1992.4053) 1:(544.78754,1434.5868)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(53.765182,2012.6409) 1:(529.1199,1448.23)
+:Sending Touch (ACTION_UP): 0:(54.843754,2014.1818)
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 250 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(662.0,1012.0)
+:Sending Touch (ACTION_UP): 0:(674.6865,1007.1581)
+Sleeping for 250 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(234.0,446.0)
+:Sending Touch (ACTION_UP): 0:(228.64394,459.4078)
+Sleeping for 250 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 250 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=2 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=6485ms (0ms mobile, 0ms wifi, 6485ms not connected)
+// Monkey finished

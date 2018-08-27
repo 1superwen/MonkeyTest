@@ -1,0 +1,57 @@
+  bash arg: -p
+  bash arg: com.aerozhonghuan.serialporttool
+  bash arg: --throttle
+  bash arg: 100
+  bash arg: -v
+  bash arg: 100
+:Monkey: seed=1535368145948 count=100
+:AllowPackage: com.aerozhonghuan.serialporttool
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.aerozhonghuan.serialporttool/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.aerozhonghuan.serialporttool/.MainActivity } in package com.aerozhonghuan.serialporttool
+:Sending Touch (ACTION_DOWN): 0:(960.0,633.0)
+:Sending Touch (ACTION_UP): 0:(960.8334,623.77515)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.aerozhonghuan.serialporttool/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.aerozhonghuan.serialporttool/.MainActivity } in package com.aerozhonghuan.serialporttool
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(205.0,1120.0)
+:Sending Touch (ACTION_UP): 0:(217.2935,1130.1722)
+:Sending Touch (ACTION_DOWN): 0:(681.0,553.0)
+:Sending Touch (ACTION_UP): 0:(677.7147,554.4653)
+:Sending Touch (ACTION_DOWN): 0:(473.0,307.0)
+:Sending Touch (ACTION_UP): 0:(479.55692,301.78067)
+:Sending Touch (ACTION_DOWN): 0:(910.0,390.0)
+:Sending Touch (ACTION_UP): 0:(901.8628,400.88678)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(371.0,787.0)
+:Sending Touch (ACTION_UP): 0:(380.7713,795.13416)
+:Sending Touch (ACTION_DOWN): 0:(659.0,2156.0)
+:Sending Touch (ACTION_UP): 0:(649.19904,2141.7173)
+:Sending Touch (ACTION_DOWN): 0:(874.0,255.0)
+:Sending Touch (ACTION_UP): 0:(861.6348,250.42291)
+:Sending Touch (ACTION_DOWN): 0:(533.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(602.89594,1093.3656)
+:Sending Touch (ACTION_DOWN): 0:(350.0,1248.0)
+:Sending Touch (ACTION_UP): 0:(244.48663,1246.2639)
+:Sending Touch (ACTION_DOWN): 0:(363.0,72.0)
+:Sending Touch (ACTION_UP): 0:(396.40454,29.730896)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=2405ms (0ms mobile, 0ms wifi, 2405ms not connected)
+// Monkey finished
